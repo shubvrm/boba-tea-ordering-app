@@ -6,7 +6,7 @@ const CartIcon = () => {
   return (
     <Link href="/cart" className='flex items-center gap-4'>
         <div className='relative w-8 h-8 md:w-5 md:h-5'>
-            <Image src="/cart.svg" alt="" fill/>
+            <Image src="/cart-pink.svg" alt="" fill/>
         </div>
         <span>Cart(3)</span>
     </Link>
