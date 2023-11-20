@@ -11,9 +11,9 @@ const Navbar = () => {
     <div className='h-12 text-[#EF99AA] p-4 flex items-center justify-between border-b-2 border-b-[#EF99AA] uppercase md:h-24'>
       {/* LEFT LINKS */}
       <div className='hidden md:flex gap-4 flex-1'>
-        <Link href="/Home">Homepage</Link>
-        <Link href="/Menu">Menu</Link>
-        <Link href="/Home">Contact</Link>
+      <Link href="/">Home</Link>
+        <Link href="/menu">Menu</Link>
+        <Link href="/">Contact</Link>
       </div>
       {/* LOGO */}
       <div className='text-xl md:font-bold flex-1 md:text-center'>
