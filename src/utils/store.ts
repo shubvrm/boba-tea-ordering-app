@@ -50,7 +50,10 @@ export const useCartStore = create(
           totalPrice: state.totalPrice - item.price,
         }));
       },
+      clearCart() {
+        set(INITIAL_STATE);
+      },
     }),
-    { name: "cart", skipHydration: true }
+    { name: "cart", getStorage: () => sessionStorage}
   )
 );
