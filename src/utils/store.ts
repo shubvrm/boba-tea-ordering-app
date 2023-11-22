@@ -54,6 +54,8 @@ export const useCartStore = create(
         set(INITIAL_STATE);
       },
     }),
+    // { name: "cart"}
     { name: "cart", getStorage: () => sessionStorage}
+
   )
 );
