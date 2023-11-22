@@ -49,8 +49,8 @@ const Price = ({ product }: { product: ProductType }) => {
               key={option.title}
               className="min-w-[6rem] p-2 ring-1 ring-[#EF99AA] rounded-md"
               style={{
-                background: selected === index ? "rgb(248 113 113)" : "white",
-                color: selected === index ? "white" : "red",
+                background: selected === index ? "rgb(239,153,170)" : "white",
+                color: selected === index ? "white" : "rgb(239,153,170)",
               }}
               onClick={() => setSelected(index)}
             >
